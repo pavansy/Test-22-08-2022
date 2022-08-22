@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./ContactUs.css" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/c4254e24a8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Contact Us</h1>
+      <form action="#">
+        <div class="contact-form">
+          <div class="personal-details">
+            <div>
+              <div class="input-icon">
+                <label> NAME </label>
+                <input
+                  id="name-value"
+                  class="input-field"
+                  type="text"
+                  placeholder="First name"
+                />
+                <span id="name-error" class="error"></span>
+              </div>
+
+              <div class="input-icon">
+                <label> EMAIL </label>
+                <input
+                  id="email-value"
+                  class="input-field"
+                  type="text"
+                  placeholder="Email"
+                />
+                <span id="email-error" class="error"></span>
+              </div>
+
+              <div class="input-icon">
+                <label> Contact Number </label>
+                <input
+                  id="number-value"
+                  class="input-field"
+                  type="text"
+                  placeholder="Contact number"
+                />
+                <span id="number-error" class="error"></span>
+              </div>
+
+              <div class="input-icon">
+                <label> Message </label>
+                <input
+                  id="message-value"
+                  class="input-field"
+                  type="text"
+                  placeholder="Your Message"
+                />
+                <span id="message-error" class="error"></span>
+              </div>
+
+              <div> 
+                <button id="btn" type="Submit">Submit Form</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="./ContactUs.js"></script>
+  </body>
+</html>
